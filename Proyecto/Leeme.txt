@@ -1,0 +1,34 @@
+-------------------- Aplicacion De Escritorio ---------------------------
+
+Integrantes del proyecto:
+
+- Molina Mauro  - Github Link - https://github.com/mauro0599
+- Pintos Maximiliano - Github Link - https://github.com/MaximilianoPintos
+- Ricco Bruno - Github Link - https://github.com/BrunoR96
+- Rios Martin - Github Link - https://github.com/MartinRios23
+- Sosa Daniel - Github Link - https://github.com/DanielSosa12
+
+Titulo del Tema : Aplicacion de Escritorio , Sistema de venta.
+
+---------------------- Resumen: --------------------------
+
+Brevemente comentaremos la idea del proyecto y como lo llevaremos a cabo.
+
+La idea principal es hacer un sistema de venta lo mas completo posible 
+para que los comercios puedan vender de una manera correcta y ordenada
+sus productos. 
+
+Posibles apartados a tener en cuenta para la aplicacion : 
+ 
+- Interfaz con: Carga y descarga de productos a la base de datos 
+- Ingreso del perfil del vendedor de turno.
+- Lectora de codigo de barra.
+- Registro de clientes.
+- Carga y registro de tarjetas de credito.
+
+
+Lenguaje a usar : Python, mysQl, Workbench / Posible libreria para interfaz grafica: Tkinter / Posible import de base de datos - sQlLite
+Entorno: Visual Studio Code / Sublime Text
+
+
+
