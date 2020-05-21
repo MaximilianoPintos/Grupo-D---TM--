@@ -1,0 +1,35 @@
+# Crecion del mayor numero posible con los digitos disponibles
+        for re in range(1,len(listaMayor)):
+            for po in range(len(listaMayor) - re):
+                if listaMayor[po] < listaMayor[po + 1]:
+                    aux = listaMayor[po]
+                    listaMayor[po] = listaMayor[po + 1]
+                    listaMayor[po + 1] = aux
+                    
+ # Impresiones en pantalla (de prueba)
+ c = "".join(listaMenor)
+ g = "".join(listaMayor)
+ print("Numero actual: " + str(n))
+ print("Numero menor posible: " + c)
+ print("Numero mayor posible: " + g)
+ print("")
+ 
+ # Re-declaracion de las variables
+ lista = []
+ listaMenor = []
+ listaMayor = []
+ n = int(g)-int(c)
+ # Crecion del mayor numero posible con los digitos disponibles
+        for re in range(1,len(listaMayor)):
+            for po in range(len(listaMayor) - re):
+                if listaMayor[po] < listaMayor[po + 1]:
+                    aux = listaMayor[po]
+                    listaMayor[po] = listaMayor[po + 1]
+                    listaMayor[po + 1] = aux
+        # Impresiones en pantalla (de prueba)
+        c = "".join(listaMenor)
+        g = "".join(listaMayor)
+        print("Numero actual: " + str(n))
+        print("Numero menor posible: " + c)
+        print("Numero mayor posible: " + g)
+        print("")
