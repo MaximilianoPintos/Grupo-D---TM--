@@ -19,4 +19,3 @@
  listaMenor = []
  listaMayor = []
  n = int(g)-int(c)
- contador += 1
