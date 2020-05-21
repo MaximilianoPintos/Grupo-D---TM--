@@ -1,0 +1,15 @@
+# Declaracion de variables
+n = int(input("Ingrese un numero de 4 digitos" + "\n" + "(Debe contener al menos 2 digitos diferentes): "))
+g = 0
+c = 0
+contador = 0
+lista = []
+listaMenor = []
+listaMayor = []
+lista.append(n)
+listaError = [0000, 1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999]
+
+if len(str(n)) != 4:
+    print("El numero ingresado no es valido.")
+if n == 1111 or n == 2222 or n == 3333 or n == 4444 or n == 5555 or n == 6666 or n == 7777 or n == 8888 or n == 9999 or n == 0000:
+    print("El numero ingresado no es valido.")    
