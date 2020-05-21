@@ -1,0 +1,13 @@
+# Array para menor numero 
+        for i in str(n):
+            listaMenor.append(i)
+        # Array para mayor numero posible
+        for j in str(n):
+            listaMayor.append(j)
+        # Creacion del menor numero posible con los digitos disponibles 
+        for re in range(1,len(listaMenor)):
+            for po in range(len(listaMenor) - re):
+                if listaMenor[po] > listaMenor[po + 1]:
+                    aux = listaMenor[po]
+                    listaMenor[po] = listaMenor[po + 1]
+                    listaMenor[po + 1] = aux
